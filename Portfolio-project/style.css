@@ -194,4 +194,78 @@
   /* resume section */
   .resume-title{
     text-align: center;
+    margin-bottom: 113px;
+  }
+  .qualifications{
+    display: flex;
+    justify-content: space-between;
+  }
+  .education{
+    max-width: 558px;
+  }
+  .qualification-titles{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .qualification{
+    max-width: 511px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .qualification-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+  }
+  .qualification-date{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+  }
+  .qualification-desc{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+  }
+  .qualification-btn{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* footer styles */
+  footer{
+    display: flex;
+    gap: 115px;
+    padding: 130px 230px;
+  }
+  .footer-columns{
+    width: 50%;
+  }
+  .footer-titles{
+    margin-bottom: 20px;
+  }
+  .footer-desc{
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .footer-icons a{
+    margin-right: 24px;
+  }
+  .footer-icons img{
+    width: 24px;
+  }
+  footer input[type="text"], footer input[type="email"], footer textarea{
+    background-color: white;
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+  }
+  footer textarea{
+    height: 180px;
   }
