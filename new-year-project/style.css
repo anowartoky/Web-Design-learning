@@ -1,0 +1,262 @@
+.inter-interfont{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Shared styles */
+  .all-main section{
+    margin-bottom: 120px;
+  }
+  .font-styles{
+    font-size: 18px;
+    color: rgba(7, 2, 17, 60%);
+    line-height: 28px;
+}
+  
+  /* first section */
+.top-section{
+    background-image: linear-gradient(to bottom, rgba(7, 2, 17, 100), rgba(7, 2, 17, 0)), url(images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+.new-year-party{
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-sub-title{
+    font-size: 32px;
+}
+.top-title{
+    font-size: 72px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* second section (Discount section) */
+.Discount-one{
+    width: 805px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.one-title{
+    font-size: 88px;
+    font-weight: bold;
+    color: #ff0000;
+    margin: 25px 0 50px 0;
+}
+.one-sub-title{
+    font-size: 24px;
+    color: #ff0000;
+    margin-bottom: 16px;
+}
+.all-cats{
+    font-size: 48px;
+    color: #070211;
+    margin-top: 20px;
+}
+
+/* welcome section style */
+.welcome-sec{
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 100), rgba(7, 2, 17, 0)), url(images/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    color: white;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.welcone-box{
+    width: 700px;
+    margin-left: 126px;
+}
+.welcome-title{
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 88px;
+    letter-spacing: 8px;
+    margin: 0;
+    color: #ffffff;
+}
+.welcome-desc{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 80%);
+}
+.welcone-box button{
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background: none;
+    color: #ffffff;
+    margin-top: 48px;
+    margin-left: 32px;
+}
+
+/* address section style */
+.address-sec{
+    background-image: linear-gradient(rgba(255, 0, 0, 10%), rgba(255, 0, 0, 0));
+    width: 1320px;
+    height: 482px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.address{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.address button{
+    margin-top: 48px;
+    padding: 16px 32px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* offer section style */
+.new-offer{
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.offer-content{
+    width: 355px;
+}
+.offer-desc{
+    width: 220px;
+}
+.offer-sub-title{
+    font-size: 24px;
+    color: #ff0000;
+    margin-bottom: 16px;
+}
+.offer-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 22px;
+    margin: 0;
+}
+.offer-desc{
+    margin-top: 22px;
+}
+.offer-image{
+    width: 463px;
+    height: 463px;
+    border-radius: 50%;
+    border: 10px solid #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.offer-image img{
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+}
+.offer-desc-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff0000;
+    margin-bottom: 16px;
+}
+.offer-desc-descs{
+    margin-bottom: 43px;
+}
+.offer-desc img{
+    width: 120px;
+}
+
+/* holiday section style */
+.holiday{
+    background-image: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 1320px;
+    height: 986px;
+    margin: auto;
+    text-align: center;
+}
+.holiday-sub-title{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.holiday-title{
+    font-size: 72px;
+    font-weight: bolder;
+    margin: 0;
+}
+.holiday-title span{
+    color: #ff0000;
+}
+.holiday-desc{
+    margin-top: 28px;
+    margin-bottom: 64px;
+}
+.holiday-images{
+    display: flex;
+    justify-content: space-between;
+}
+.holiday-ev-img img{
+    height: 600px;
+}
+
+/* gifts section style */
+.gift-sec{
+    width: 1320px;
+    height: 1163px;
+    margin: auto;
+}
+.gift-sub-title{
+    font-size: 24px;
+    color: #ff0000;
+    margin-bottom: 16px;
+}
+.gift-title{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+.gift-desc{
+    margin-top: 22px;
+    margin-bottom: 48px;
+}
+.gift-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.gift-box{
+    width: 424px;
+    height: 450px;
+    border-radius: 20px;
+}
