@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .inter-interfont{
     font-family: "Inter", serif;
     font-optical-sizing: auto;
@@ -27,6 +31,7 @@
     height: 600px;
     margin: auto;
     margin-top: 50px;
+    border-radius: 20px;
 }
 .new-year-party{
     color: white;
@@ -126,6 +131,9 @@
     font-weight: 600;
     line-height: 30px;
 }
+.address-box p{
+    line-height: 56px;
+}
 .address button{
     margin-top: 48px;
     padding: 16px 32px;
@@ -197,9 +205,10 @@
 
 /* holiday section style */
 .holiday{
-    background-image: url(images/Rectangle\ 2.png);
+    background-image:url(images/Group\ 75.png), url(images/Group\ 44.png), url(images/Rectangle\ 2.png);
+    background-position: bottom left, 93% 58%, bottom;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-size: 700px, 300px, 100%;
     width: 1320px;
     height: 986px;
     margin: auto;
@@ -221,15 +230,6 @@
     margin-top: 28px;
     margin-bottom: 64px;
 }
-.holiday-images{
-    display: flex;
-    justify-content: space-between;
-}
-.holiday-ev-img img{
-    height: 600px;
-}
-
-/* gifts section style */
 .gift-sec{
     width: 1320px;
     height: 1163px;
@@ -259,4 +259,103 @@
     width: 424px;
     height: 450px;
     border-radius: 20px;
+}
+
+/* Subscribe section style */
+.subscribe{
+    background-color: rgba(255, 0, 0, 5%);
+    border-radius: 20px;
+    width: 1320px;
+    height: 616px;
+    margin: auto;
+    text-align: center;
+}
+.subscribe-cont{
+    margin-bottom: 48px;
+}
+.subscribe-cont img{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+}
+.subscribe-title{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 22px;
+}
+.subscribe-btn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 648px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.subscribe-btn input{
+    padding: 25px 30px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 438px;
+}
+.subscribe-btn button{
+    background-color: #ff0000;
+    padding: 25px;
+    color: #ffffff;
+    border-radius: 0 50px 50px 0;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 210px;
+}
+
+/* footer section style */
+footer{
+    background-color: #070211;
+    color: #ffffff;
+    padding: 120px 115px;
+}
+footer hr{
+    border-color: rgba(255, 255, 255, 15%);
+    background-color: rgba(255, 255, 255, 15%);
+}
+.footer-font-one{
+    font-size: 24px;
+}
+.party-address{
+    display: flex;
+    width: 1185px;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+.party-address > h1{
+    width: 375px;
+    margin-right: 560px;
+}
+.party-mail-phone{
+    display: flex;
+    align-items: center;
+}
+.party-mail-phone img{
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+}
+.footer-icons{
+    margin: 30px auto 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+}
+.footer-icons img{
+    width: 64px;
+    height: 64px;
+}
+.footer-last{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
